@@ -1,6 +1,6 @@
 # -C-
 一定要坚持（搞钱搞钱搞钱！！！）
-选择语句
+
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 int main()
