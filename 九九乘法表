@@ -1,0 +1,18 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+	int l = 0;
+	for (l = 1; l <= 9; l++)
+	{
+		int h = 1;
+		for (h = 1; h <= l; h++)
+		{
+			printf("%d*%d=%2d ", l, h, l * h);
+		}
+		printf("\n");
+	}
+  return 0;
+}
