@@ -1,0 +1,22 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<string.h>
+
+void swap2(int* pa, int* pb)
+{
+	int tmp = 0;
+	tmp = *pa;
+	*pa = *pb;
+	*pb = tmp;
+}
+int main()
+{
+	int a = 10;
+	int b = 20;
+	//int tmp = 0;
+	printf("a=%d  b=%d\n", a, b);
+	//swap1(a, b);//不需要返回，所以没返回值，就是交换一下
+	swap2(&a, &b);
+	printf("a=%d  b=%d\n", a, b);
+	return 0;
+}
