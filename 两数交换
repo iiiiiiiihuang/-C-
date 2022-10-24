@@ -1,0 +1,15 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	int a = 10;
+	int b = 20;
+	int tmp = 0;
+	printf("a=%d  b=%d\n", a, b);
+	tmp = a;
+	a = b;
+	b = tmp;
+	printf("a=%d  b=%d\n", a, b);
+	return 0;
+}
